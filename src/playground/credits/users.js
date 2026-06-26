@@ -19,8 +19,14 @@ const fromHardcoded = ({userID = '0', username}) => {
     return result;
 };
 
+// mintblocks credits. yeah. just me
+const mbcontributors = [
+    {
+        userID: '160654188',
+        username: 'jimhasaburger'
+    }
+].map(fromHardcoded);
 // The lists below are in no particular order.
-
 const contributors = [
     {
         userID: '41219524',
