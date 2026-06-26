@@ -61,7 +61,7 @@ const Credits = () => (
         </header>
         <section>
             <p>
-                The {APP_NAME} project is made possible by the work of many volunteers.
+                The Turbowarp project is made possible by the work of many volunteers. these credits are the ones of Turbowarp.
             </p>
         </section>
         {APP_NAME !== 'TurboWarp' && (
@@ -76,7 +76,7 @@ const Credits = () => (
         <section>
             <h2>Scratch</h2>
             <p>
-                {APP_NAME} is based on the work of the <a href="https://scratch.mit.edu/credits">Scratch contributors</a> but is not endorsed by Scratch in any way.
+                Turbowarp and {APP_NAME} is based on the work of the <a href="https://scratch.mit.edu/credits">Scratch contributors</a> but is not endorsed by Scratch in any way.
             </p>
             <p>
                 <a href="https://scratch.mit.edu/donate">
@@ -85,11 +85,15 @@ const Credits = () => (
             </p>
         </section>
         <section>
-            <h2>Contributors</h2>
+            <h2>Mintblocks Contributors</h2>
+            <UserList users={UserData.mbcontributors} />
+        </section>
+        <section>
+            <h2>Turbowarp Contributors</h2>
             <UserList users={UserData.contributors} />
         </section>
         <section>
-            <h2>Addons</h2>
+            <h2>Turbowarp Addons</h2>
             <UserList users={UserData.addonDevelopers} />
         </section>
         <section>
@@ -97,13 +101,13 @@ const Credits = () => (
             <UserList users={UserData.extensionDevelopers} />
         </section>
         <section>
-            <h2>Documentation</h2>
+            <h2>Turbowarp Documentation</h2>
             <UserList users={UserData.docs} />
         </section>
         <section>
-            <h2>Translators</h2>
+            <h2>Turbowarp Translators</h2>
             <p>
-                More than 100 people have helped translate {APP_NAME} and its addons into many languages
+                More than 100 people have helped translate Turbowarp and its addons into many languages
                 &mdash; far more than we could hope to list here.
             </p>
         </section>
