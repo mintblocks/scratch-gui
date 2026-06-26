@@ -22,8 +22,7 @@ const fromHardcoded = ({userID = '0', username}) => {
 // mintblocks credits. yeah. just me
 const mbcontributors = [
     {
-        userID: '160654188',
-        username: 'jimhasaburger'
+        username: 'itsjim444'
     }
 ].map(fromHardcoded);
 // The lists below are in no particular order.
