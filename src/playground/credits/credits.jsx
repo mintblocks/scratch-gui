@@ -61,7 +61,7 @@ const Credits = () => (
         </header>
         <section>
             <p>
-                The Turbowarp project is made possible by the work of many volunteers. these credits are the ones of Turbowarp.
+                {APP_NAME} is made possible by the work of many volunteers.
             </p>
         </section>
         {APP_NAME !== 'TurboWarp' && (
@@ -85,7 +85,7 @@ const Credits = () => (
             </p>
         </section>
         <section>
-            <h2>Mintblocks Contributors</h2>
+            <h2>{APP_NAME} Contributors</h2>
             <UserList users={UserData.mbcontributors} />
         </section>
         <section>
