@@ -387,6 +387,7 @@ const docs = [
 ].map(fromHardcoded);
 
 export default {
+    mbcontributors: shuffle(mbcontributors),
     contributors: shuffle(contributors),
     addonDevelopers: shuffle(addonDevelopers),
     extensionDevelopers: shuffle(extensionDevelopers),
